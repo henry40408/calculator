@@ -44,6 +44,10 @@ class ViewController: UIViewController {
             try! self.core.addStep(+)
         case "-":
             try! self.core.addStep(-)
+        case "×":
+            try! self.core.addStep(*)
+        case "÷":
+            try! self.core.addStep(/)
         default:
             break
         }

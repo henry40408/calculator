@@ -79,7 +79,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="operatorButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LsU-6h-OHg"/>
-                                                    <action selector="resetButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2c-lb-bRM"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -147,7 +146,6 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="operatorButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eNT-KU-ep8"/>
-                                                    <action selector="resetButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JbD-PY-JuC"/>
                                                 </connections>
                                             </button>
                                         </subviews>
