@@ -50,19 +50,8 @@ class DisplayLabel: UILabel {
         }
     }
 
-    var pureZero: Bool {
-        if let text = self.text {
-            return text == "0" || text == "0.0"
-        } else {
-            return false
-        }
-    }
-
     func changeSign() {
         guard let text = self.text else {
-            return
-        }
-        if self.pureZero {
             return
         }
         self.text = self.negative ? text.substringFromIndex(text.startIndex.advancedBy(1)) : "-" + text
