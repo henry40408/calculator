@@ -65,5 +65,9 @@ class ViewController: UIViewController {
         self.resetCore()
         self.displayLabel.clear()
     }
+    
+    @IBAction func dotButtonClicked(sender: UIButton) {
+        self.displayLabel.addDecimalDot()
+    }
 }
 

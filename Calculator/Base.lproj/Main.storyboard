@@ -335,6 +335,9 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <state key="selected" backgroundImage="operand-pressed"/>
+                                                <connections>
+                                                    <action selector="dotButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kps-lh-pLD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSv-A6-hFn">
                                                 <rect key="frame" x="246" y="0.0" width="82" height="82"/>
