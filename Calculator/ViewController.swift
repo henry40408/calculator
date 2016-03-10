@@ -69,5 +69,9 @@ class ViewController: UIViewController {
     @IBAction func dotButtonClicked(sender: UIButton) {
         self.displayLabel.addDecimalDot()
     }
+
+    @IBAction func percentageButtonClicked(sender: UIButton) {
+        self.displayLabel.floatValue = self.displayLabel.floatValue * 0.01
+    }
 }
 

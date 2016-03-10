@@ -66,6 +66,9 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                 </state>
                                                 <state key="selected" backgroundImage="operand-pressed"/>
+                                                <connections>
+                                                    <action selector="percentageButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Az9-2R-tTp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krH-xN-xEF">
                                                 <rect key="frame" x="246" y="0.0" width="82" height="82"/>
@@ -395,4 +398,7 @@
             <point key="canvasLocation" x="336" y="353"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="operand-pressed" width="50" height="50"/>
+    </resources>
 </document>
