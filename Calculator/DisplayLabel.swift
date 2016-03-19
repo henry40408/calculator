@@ -10,7 +10,9 @@ import UIKit
 
 class DisplayLabel: UILabel {
     
-    var decimalDotted = false
+    var decimalDotted: Bool {
+        return self.text?.containsString(".") ?? false
+    }
 
     // MARK: - Value
 
@@ -29,7 +31,6 @@ class DisplayLabel: UILabel {
 
     func clear() {
         self.floatValue = 0.0
-        self.decimalDotted = false
     }
 
     func append(digit: Int) {
@@ -60,7 +61,6 @@ class DisplayLabel: UILabel {
     func addDecimalDot() {
         if !self.decimalDotted {
             self.text = self.text! + "."
-            self.decimalDotted = true
         }
     }
 
